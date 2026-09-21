@@ -26,3 +26,28 @@
   font-weight: bold;
   padding-top: 8px;
 }
+
+.bar.comparing {
+  background-color: orange;
+}
+
+.bar.swapped {
+  background-color: crimson;
+}
+
+.bar.sorted {
+  background-color: green;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
